@@ -29,7 +29,7 @@ resource "aws_s3_bucket" "screenshots_prod" {
 resource "aws_db_instance" "my_db" {
   identifier          = "mysql57-extended"
   engine              = "mysql"
-  engine_version      = "5.7.44"
+  engine_version      = "8.4.0"
   instance_class      = "c5.2xlarge"
   allocated_storage   = 20
   username            = "admin"
